@@ -1,0 +1,270 @@
+/* フォント ※後で追加*/
+/* font-family: "Concert One", sans-serif; */
+/* font-family: "M PLUS Rounded 1c", sans-serif; */
+
+/* 全体設定 */
+img {
+    max-width: 100%;
+}
+
+body {
+    max-width: 100%;
+    font-family: "Concert One", "M PLUS Rounded 1c", sans-serif;
+}
+
+/* ヘッダー始まり */
+header {
+    display: flex;
+}
+
+header .Flogo {
+    /* border: 1px solid red; */
+    width: 300px;
+    font-size: 0.7rem;
+    color: #b9b9b9;
+}
+
+header .Flogo img {
+    /* border: 1px solid blue; */
+    width: 100px;
+    height: auto;
+    margin: 1rem 0 0 1rem;
+}
+
+header nav {
+    width: 100%;
+}
+
+header nav ul {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+header nav ul li {
+    font-size: 24px;
+    color: #191970;
+}
+
+/* ヘッダーおわり */
+
+/* メインはじまり */
+main {
+    /* border: 1px solid red; */
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* 動画 */
+main .FV {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.FV video {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 16px;
+}
+
+/* タイトル */
+main #about h1 {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 5rem;
+    color: #ffb6c1;
+    font-weight: 800;
+    text-align: center;
+    margin: 4rem 0;
+}
+
+/* プロフィール部分 */
+main #about .profile {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #d2ddeb;
+    border-radius: 16px;
+    padding: 2rem;
+}
+
+/* プロフィール写真 */
+main #about .profile figure img {
+    border-radius: 50%;
+    width: 400px;
+    height: auto;
+}
+
+/* プロフィール名前 */
+main #about .profile figure figcaption {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #191970;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/* プルフィール説明 */
+main #about .profile p {
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 4rem;
+    color: #191970;
+    align-self: center;
+}
+
+/* プロフィール詳細 */
+main #about .profile02 {
+    /* border: 1px solid red; */
+    margin-top: 3rem;
+    display: flex;
+}
+
+/* 全てのｈ２の設定 */
+main h2 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #191970;
+    margin: 5rem 0;
+    text-align: center;
+}
+
+/* 詳細プロフィールの箱の設定（上段） */
+main #about .profile02 .introduction {
+    border: 3px solid #b0c4de;
+    border-radius: 24px;
+    width: 300px;
+    height: 200px;
+    padding: 2.4rem;
+    margin: 0 auto;
+}
+
+main #about .profile02 .introduction p {
+    font-size: 1.3rem;
+    font-weight: 550;
+    color: #191970;
+    line-height: 4rem;
+    text-align: center;
+}
+
+/* 詳細プロフィールの箱の設定（下段） */
+main #about .profile03 {
+    /* border: 1px solid blue; */
+    margin-top: 3rem;
+    display: flex;
+}
+
+main #about .profile03 .introduction02 {
+    border: 3px solid #b0c4de;
+    border-radius: 24px;
+    width: 600px;
+    height: 200px;
+    padding: 2.5rem;
+    margin: 0 auto;
+}
+
+main #about .profile03 .introduction02 p {
+    font-size: 1.3rem;
+    font-weight: 550;
+    color: #191970;
+    line-height: 4rem;
+    text-align: center;
+}
+
+/* スライダー */
+.swiper_azuki {
+    width: 100%;
+    height: auto;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+}
+
+/* スライドの動き等速 */
+.swiper-wrapper {
+    transition-timing-function: linear;
+}
+
+/* あずきフォト */
+main #gallery .azuki_photo {
+    width: 1200px;
+    height: auto;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+main #gallery .azuki_photo img {
+    width: 300px;
+    height: 300px;
+}
+
+/* だるま戻るボタン */
+main .modoru {
+    width: 8%;
+    height: auto;
+    position: fixed;
+    right: 0.5%;
+    bottom: 5%;
+    z-index: 1000;
+}
+
+main .modoru:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 20px #b0c4de(176, 198, 222, 0.959);
+    transition: 0.3s;
+}
+
+/* *************＜＜＜あしらいのため追加＞＞＞ **************/
+
+.grid-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: grid;
+
+    /* グリッドサイズ（隙間あり） */
+    grid-template-columns: repeat(auto-fill, 400px);
+    grid-auto-rows: 400px;
+
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-item img {
+    width: 70px;
+    height: 70px;
+    opacity: 0.1;
+    animation: float 4s ease-in-out infinite;
+    transform: rotate(var(--rotation));
+}
+
+/* ゆっくりふわふわ動くアニメーション */
+@keyframes float {
+    0% {
+        transform: translateY(0) rotate(var(--rotation));
+    }
+    50% {
+        transform: translateY(-20px) rotate(var(--rotation));
+    }
+    100% {
+        transform: translateY(0) rotate(var(--rotation));
+    }
+}
+
+/* ＜＜＜*************あしらいのため追加ここまで*************＞＞＞ */
