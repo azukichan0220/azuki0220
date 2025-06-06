@@ -93,7 +93,6 @@ main #about .profile {
 
 /* プロフィール写真 */
 main #about .profile figure img {
-    width: 50%;
     border-radius: 50%;
     width: 400px;
     height: auto;
@@ -397,6 +396,25 @@ footer {
         font-size: 1.5rem;
         font-weight: 700;
     }
+    main #about .profile {
+        display: block;
+        margin: 0 auto;
+    }
+
+    main #about .profile figure {
+        text-align: center;
+    }
+
+    main #about .profile figure img {
+        border-radius: 50%;
+        width: 80%;
+        height: auto;
+    }
+
+    main #about .profile p {
+        text-align: center;
+        margin-top: 2rem;
+    }
 }
 
 /************************ 500px *****************************/
@@ -407,7 +425,72 @@ footer {
     }
 
     main #about .profile p {
-        font-size: 1rem;
+        font-size: 0.8rem;
         font-weight: 700;
+    }
+
+    header nav ul {
+        margin-top: 0rem;
+    }
+
+    /* ハンバーガー */
+    #drawerButton {
+        display: block;
+        position: fixed;
+        right: 1rem;
+        top: 1rem;
+        z-index: 10000;
+    }
+
+    .menu-toggle {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 25px;
+        cursor: pointer;
+        gap: 24px;
+    }
+
+    .bar {
+        height: 4px;
+        width: 100%;
+        background-color: #191970;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+        margin-bottom: 5px;
+    }
+
+    #drawerButton.reDesign .bar1 {
+        transform: rotate(45deg);
+        position: relative;
+        top: 9px;
+    }
+
+    #drawerButton.reDesign .bar2 {
+        opacity: 0;
+    }
+
+    #drawerButton.reDesign .bar3 {
+        transform: rotate(-45deg);
+        position: relative;
+        bottom: 9px;
+    }
+
+    header ul {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        right: -110%;
+        background-color: #b0c4de;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+        z-index: 1000;
+    }
+
+    header ul.open {
+        right: 0;
     }
 }
