@@ -82,6 +82,7 @@ main #about h1 {
 
 /* プロフィール部分 */
 main #about .profile {
+    max-width: 1400px;
     /* border: 1px solid red; */
     display: flex;
     justify-content: space-evenly;
@@ -92,6 +93,7 @@ main #about .profile {
 
 /* プロフィール写真 */
 main #about .profile figure img {
+    width: 50%;
     border-radius: 50%;
     width: 400px;
     height: auto;
@@ -131,8 +133,14 @@ main h2 {
     text-align: center;
 }
 
+main #about .azukiprofile {
+    /* border: 1px solid red; */
+    max-width: 1400px;
+    height: auto;
+}
+
 /* 詳細プロフィールの箱の設定（上段） */
-main #about .profile02 .introduction {
+main #about .azukiprofile .profile02 .introduction {
     border: 3px solid #b0c4de;
     border-radius: 24px;
     width: 300px;
@@ -141,7 +149,7 @@ main #about .profile02 .introduction {
     margin: 0 auto;
 }
 
-main #about .profile02 .introduction p {
+main #about .azukiprofile .profile02 .introduction p {
     font-size: 1.3rem;
     font-weight: 550;
     color: #191970;
@@ -150,13 +158,13 @@ main #about .profile02 .introduction p {
 }
 
 /* 詳細プロフィールの箱の設定（下段） */
-main #about .profile03 {
+main #about .azukiprofile .profile03 {
     /* border: 1px solid blue; */
     margin-top: 3rem;
     display: flex;
 }
 
-main #about .profile03 .introduction02 {
+main #about .azukiprofile .profile03 .introduction02 {
     border: 3px solid #b0c4de;
     border-radius: 24px;
     width: 600px;
@@ -165,7 +173,7 @@ main #about .profile03 .introduction02 {
     margin: 0 auto;
 }
 
-main #about .profile03 .introduction02 p {
+main #about .azukiprofile .profile03 .introduction02 p {
     font-size: 1.3rem;
     font-weight: 550;
     color: #191970;
@@ -191,7 +199,7 @@ main #about .profile03 .introduction02 p {
 
 /* あずきフォト */
 main #gallery .azuki_photo {
-    width: 1200px;
+    max-width: 1200px;
     height: auto;
     margin-inline: auto;
     display: flex;
@@ -204,6 +212,26 @@ main #gallery .azuki_photo {
 main #gallery .azuki_photo img {
     width: 300px;
     height: 300px;
+}
+
+/* LINKページ */
+main #SNS {
+    /* border: 1px solid red; */
+    max-width: 1400px;
+}
+
+/* TikTokボタン */
+main #SNS .tiktok h3 {
+    font-size: 2rem;
+    font-weight: 300;
+    color: #f5f5f5;
+    background-color: #191970;
+    width: 400px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    border-radius: 8px;
 }
 
 /* だるま戻るボタン */
@@ -220,6 +248,16 @@ main .modoru:hover {
     transform: scale(1.02);
     box-shadow: 0 6px 20px #b0c4de(176, 198, 222, 0.959);
     transition: 0.3s;
+}
+
+/* フッター */
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #b0c4de;
+    text-align: center;
+    padding: 15px;
+    margin-top: 5rem;
 }
 
 /* *************＜＜＜あしらいのため追加＞＞＞ **************/
@@ -268,3 +306,108 @@ main .modoru:hover {
 }
 
 /* ＜＜＜*************あしらいのため追加ここまで*************＞＞＞ */
+
+/******************メディアクエリ ******************************/
+@media screen and (max-width: 1200px) {
+    /* 詳細プロフィールの箱の設定（上段） */
+    main #about .azukiprofile .profile02 .introduction {
+        border: 3px solid #b0c4de;
+        border-radius: 24px;
+        width: 200px;
+        height: 100px;
+        padding: 1rem;
+        margin: 0 auto;
+    }
+
+    main #about .azukiprofile .profile02 .introduction p {
+        font-size: 1rem;
+        color: #191970;
+        line-height: 2rem;
+        text-align: center;
+    }
+
+    /* 詳細プロフィールの箱の設定（下段） */
+    main #about .azukiprofile .profile03 {
+        /* border: 1px solid blue; */
+        margin-top: 2rem;
+        display: flex;
+    }
+
+    main #about .azukiprofile .profile03 .introduction02 {
+        border: 3px solid #b0c4de;
+        border-radius: 24px;
+        width: 400px;
+        height: 150px;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    main #about .azukiprofile .profile03 .introduction02 p {
+        font-size: 1rem;
+        color: #191970;
+        line-height: 2rem;
+        text-align: center;
+    }
+}
+
+/************************ 830px *****************************/
+@media screen and (max-width: 830px) {
+    main #about .profile p {
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 2rem;
+        margin-left: 0.5rem;
+    }
+
+    header .Flogo {
+        font-size: 0.5rem;
+    }
+
+    main #about .azukiprofile .profile02 {
+        display: block;
+    }
+
+    main #about .azukiprofile .profile02 .introduction {
+        border-radius: 16px;
+        width: 300px;
+        height: 100px;
+        padding: 1rem;
+        margin: 2rem auto;
+    }
+
+    main #about .azukiprofile .profile03 {
+        display: block;
+    }
+
+    main #about .azukiprofile .profile03 .introduction02 {
+        border-radius: 16px;
+        width: 400px;
+        height: 100px;
+        padding: 1rem;
+        margin: 2rem auto;
+    }
+}
+/************************ 780px *****************************/
+@media screen and (max-width: 780px) {
+    main #about h1 {
+        font-size: 3rem;
+        font-weight: 500;
+    }
+    main #about .profile p {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+}
+
+/************************ 500px *****************************/
+@media screen and (max-width: 500px) {
+    main #about h1 {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    main #about .profile p {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+}
