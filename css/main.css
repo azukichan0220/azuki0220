@@ -4,537 +4,557 @@
 
 /* 全体設定 */
 img {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 body {
-  max-width: 100%;
-  font-family: "Concert One", "M PLUS Rounded 1c", sans-serif;
+    max-width: 100%;
+    font-family: "Concert One", "M PLUS Rounded 1c", sans-serif;
 }
 
 /* ヘッダー始まり */
 header {
-  display: flex;
+    display: flex;
 }
 
 header .Flogo {
-  width: 300px;
-  font-size: 0.7rem;
-  color: #b9b9b9;
+    width: 300px;
+    font-size: 0.7rem;
+    color: #b9b9b9;
 }
 
 header .Flogo img {
-  /* border: 1px solid blue; */
-  width: 100px;
-  height: auto;
-  margin: 1rem 0 0 1rem;
+    /* border: 1px solid blue; */
+    width: 100px;
+    height: auto;
+    margin: 1rem 0 0 1rem;
 }
 
 header nav {
-  width: 100%;
+    width: 100%;
 }
 
 header nav ul {
-  /* border: 1px solid red; */
-  display: flex;
-  justify-content: space-around;
-  margin-top: 3rem;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
 }
 
 header nav ul li {
-  font-size: 24px;
-  color: #191970;
+    font-size: 24px;
+    color: #191970;
 }
 
 /* ヘッダーおわり */
 
 /* メインはじまり */
 main {
-  /* border: 1px solid red; */
-  width: 100%;
-  max-width: 1400px;
-  margin: 0 auto;
+    /* border: 1px solid red; */
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 /* 動画 */
 main .FV {
-  text-align: center;
-  margin-top: 2rem;
+    text-align: center;
+    margin-top: 2rem;
 }
 
 .FV video {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 16px;
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 16px;
 }
 
 /* タイトル */
 main #about h1 {
-  font-family: "M PLUS Rounded 1c", sans-serif;
-  font-size: 5rem;
-  color: #ffb6c1;
-  font-weight: 800;
-  text-align: center;
-  margin: 4rem 0;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 5rem;
+    color: #ffb6c1;
+    font-weight: 800;
+    text-align: center;
+    margin: 4rem 0;
 }
 
 /* プロフィール部分 */
 main #about .profile {
-  max-width: 1400px;
-  /* border: 1px solid red; */
-  display: flex;
-  justify-content: space-evenly;
-  background-color: #d2ddeb;
-  border-radius: 16px;
-  padding: 2rem;
+    max-width: 1400px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #d2ddeb;
+    border-radius: 16px;
+    padding: 2rem;
 }
 
 /* プロフィール写真 */
 main #about .profile figure img {
-  border-radius: 50%;
-  width: 400px;
-  height: auto;
+    border-radius: 50%;
+    width: 400px;
+    height: auto;
 }
 
 /* プロフィール名前 */
 main #about .profile figure figcaption {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: #191970;
-  text-align: center;
-  margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #191970;
+    text-align: center;
+    margin-top: 1rem;
 }
 
 /* プルフィール説明 */
 main #about .profile p {
-  font-size: 2rem;
-  font-weight: 800;
-  line-height: 4rem;
-  color: #191970;
-  align-self: center;
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 4rem;
+    color: #191970;
+    align-self: center;
 }
 
 /* プロフィール詳細 */
 main #about .profile02 {
-  /* border: 1px solid red; */
-  margin-top: 3rem;
-  display: flex;
+    /* border: 1px solid red; */
+    margin-top: 3rem;
+    display: flex;
 }
 
 /* 全てのｈ２の設定 */
 main h2 {
-  font-size: 3rem;
-  font-weight: 800;
-  color: #191970;
-  margin: 5rem 0;
-  text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+    color: #191970;
+    margin: 5rem 0;
+    text-align: center;
 }
 
 main #about .azukiprofile {
-  /* border: 1px solid red; */
-  max-width: 1400px;
-  height: auto;
+    /* border: 1px solid red; */
+    max-width: 1400px;
+    height: auto;
 }
 
 /* 詳細プロフィールの箱の設定（上段） */
 main #about .azukiprofile .profile02 .introduction {
-  border: 3px solid #b0c4de;
-  border-radius: 24px;
-  width: 300px;
-  height: 200px;
-  padding: 2.4rem;
-  margin: 0 auto;
+    border: 3px solid #b0c4de;
+    border-radius: 24px;
+    width: 300px;
+    height: 200px;
+    padding: 2.4rem;
+    margin: 0 auto;
 }
 
 main #about .azukiprofile .profile02 .introduction p {
-  font-size: 1.3rem;
-  font-weight: 550;
-  color: #191970;
-  line-height: 4rem;
-  text-align: center;
+    font-size: 1.3rem;
+    font-weight: 550;
+    color: #191970;
+    line-height: 4rem;
+    text-align: center;
 }
 
 /* 詳細プロフィールの箱の設定（下段） */
 main #about .azukiprofile .profile03 {
-  /* border: 1px solid blue; */
-  margin-top: 3rem;
-  display: flex;
+    /* border: 1px solid blue; */
+    margin-top: 3rem;
+    display: flex;
 }
 
 main #about .azukiprofile .profile03 .introduction02 {
-  border: 3px solid #b0c4de;
-  border-radius: 24px;
-  width: 600px;
-  height: 200px;
-  padding: 2.5rem;
-  margin: 0 auto;
+    border: 3px solid #b0c4de;
+    border-radius: 24px;
+    width: 600px;
+    height: 200px;
+    padding: 2.5rem;
+    margin: 0 auto;
 }
 
 main #about .azukiprofile .profile03 .introduction02 p {
-  font-size: 1.3rem;
-  font-weight: 550;
-  color: #191970;
-  line-height: 4rem;
-  text-align: center;
+    font-size: 1.3rem;
+    font-weight: 550;
+    color: #191970;
+    line-height: 4rem;
+    text-align: center;
 }
 
 /* スライダー */
 .swiper_azuki {
-  /* border: 1px solid red; */
-  max-width: 1000px;
-  height: auto;
-  margin: 0 auto;
+    /* border: 1px solid red; */
+    max-width: 1000px;
+    height: auto;
+    margin: 0 auto;
 }
 
 .swiper-slide {
-  margin: 0 auto;
-  text-align: center;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .swiper-slide img {
-  width: 80%;
-  height: auto;
+    width: 80%;
+    height: auto;
 }
 
 /* あずきフォト */
 main #gallery .azuki_photo {
-  max-width: 1200px;
-  height: auto;
-  margin-inline: auto;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 2rem;
+    max-width: 1200px;
+    height: auto;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
 main #gallery .azuki_photo img {
-  width: 300px;
-  height: 300px;
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
 }
 
 /* LINKページ */
 main #SNS {
-  /* border: 1px solid red; */
-  max-width: 1400px;
+    /* border: 1px solid red; */
+    max-width: 1400px;
 }
 
 /* TikTokボタン */
 main #SNS .tiktok h3 {
-  font-size: 2rem;
-  font-weight: 300;
-  color: #f5f5f5;
-  background-color: #191970;
-  width: 400px;
-  height: auto;
-  text-align: center;
-  margin: 0 auto;
-  padding: 1rem 2rem;
-  border-radius: 8px;
+    font-size: 2rem;
+    font-weight: 300;
+    color: #f5f5f5;
+    background-color: #191970;
+    width: 400px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+}
+
+/* インスタボタン */
+main #SNS .Instagram h3 {
+    font-size: 2rem;
+    font-weight: 300;
+    color: #f5f5f5;
+    background-color: #191970;
+    width: 400px;
+    height: auto;
+    text-align: center;
+    margin: 4rem auto;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+}
+
+main #SNS .Instagram {
+    margin: 0 auto;
+    text-align: center;
 }
 
 /* だるま戻るボタン */
 main .modoru {
-  width: 8%;
-  height: auto;
-  position: fixed;
-  right: 0.5%;
-  bottom: 5%;
-  z-index: 1000;
+    width: 8%;
+    height: auto;
+    position: fixed;
+    right: 0.5%;
+    bottom: 5%;
+    z-index: 1000;
 }
 
 main .modoru:hover {
-  transform: scale(1.02);
-  box-shadow: 0 6px 20px #b0c4de(176, 198, 222, 0.959);
-  transition: 0.3s;
+    transform: scale(1.02);
+    box-shadow: 0 6px 20px #b0c4de(176, 198, 222, 0.959);
+    transition: 0.3s;
 }
 
 /* フッター */
 footer {
-  width: 100%;
-  height: 50px;
-  background-color: #b0c4de;
-  text-align: center;
-  padding: 15px;
-  margin-top: 5rem;
+    width: 100%;
+    height: 50px;
+    background-color: #b0c4de;
+    text-align: center;
+    padding: 15px;
+    margin-top: 5rem;
 }
 
 /* *************＜＜＜あしらいのため追加＞＞＞ **************/
 
 .grid-background {
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: grid;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: grid;
 
-  /* グリッドサイズ（隙間あり） */
-  grid-template-columns: repeat(auto-fill, 400px);
-  grid-auto-rows: 400px;
+    /* グリッドサイズ（隙間あり） */
+    grid-template-columns: repeat(auto-fill, 400px);
+    grid-auto-rows: 400px;
 
-  width: 100vw;
-  height: 100vh;
-  z-index: -1;
-  pointer-events: none;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    pointer-events: none;
 }
 
 .grid-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .grid-item img {
-  width: 70px;
-  height: 70px;
-  opacity: 0.1;
-  animation: float 4s ease-in-out infinite;
-  transform: rotate(var(--rotation));
+    width: 70px;
+    height: 70px;
+    opacity: 0.1;
+    animation: float 4s ease-in-out infinite;
+    transform: rotate(var(--rotation));
 }
 
 /* ゆっくりふわふわ動くアニメーション */
 @keyframes float {
-  0% {
-    transform: translateY(0) rotate(var(--rotation));
-  }
-  50% {
-    transform: translateY(-20px) rotate(var(--rotation));
-  }
-  100% {
-    transform: translateY(0) rotate(var(--rotation));
-  }
+    0% {
+        transform: translateY(0) rotate(var(--rotation));
+    }
+    50% {
+        transform: translateY(-20px) rotate(var(--rotation));
+    }
+    100% {
+        transform: translateY(0) rotate(var(--rotation));
+    }
 }
 
 /* ＜＜＜*************あしらいのため追加ここまで*************＞＞＞ */
 
 /* ローディング */
 .loading-screen {
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 100000;
-  transition: all 5s linear;
-  /* ここから下はデザイン用 */
-  background-image: url(../videos/だるまloading.gif);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: aliceblue;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100000;
+    transition: all 5s linear;
+    /* ここから下はデザイン用 */
+    background-image: url(../videos/だるまloading.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
 }
 
 /* JSで付与するクラス。これによってクラスloading_bgが指定されている要素が消える */
 .active {
-  opacity: 0;
-  visibility: hidden;
-  top: -100%;
+    opacity: 0;
+    visibility: hidden;
+    top: -100%;
 }
 
 /******************メディアクエリ ******************************/
 @media screen and (max-width: 1200px) {
-  /* 詳細プロフィールの箱の設定（上段） */
-  main #about .azukiprofile .profile02 .introduction {
-    border: 3px solid #b0c4de;
-    border-radius: 24px;
-    width: 200px;
-    height: 100px;
-    padding: 1rem;
-    margin: 0 auto;
-  }
+    /* 詳細プロフィールの箱の設定（上段） */
+    main #about .azukiprofile .profile02 .introduction {
+        border: 3px solid #b0c4de;
+        border-radius: 24px;
+        width: 200px;
+        height: 100px;
+        padding: 1rem;
+        margin: 0 auto;
+    }
 
-  main #about .azukiprofile .profile02 .introduction p {
-    font-size: 1rem;
-    color: #191970;
-    line-height: 2rem;
-    text-align: center;
-  }
+    main #about .azukiprofile .profile02 .introduction p {
+        font-size: 1rem;
+        color: #191970;
+        line-height: 2rem;
+        text-align: center;
+    }
 
-  /* 詳細プロフィールの箱の設定（下段） */
-  main #about .azukiprofile .profile03 {
-    /* border: 1px solid blue; */
-    margin-top: 2rem;
-    display: flex;
-  }
+    /* 詳細プロフィールの箱の設定（下段） */
+    main #about .azukiprofile .profile03 {
+        /* border: 1px solid blue; */
+        margin-top: 2rem;
+        display: flex;
+    }
 
-  main #about .azukiprofile .profile03 .introduction02 {
-    border: 3px solid #b0c4de;
-    border-radius: 24px;
-    width: 400px;
-    height: 150px;
-    padding: 2rem;
-    margin: 0 auto;
-  }
+    main #about .azukiprofile .profile03 .introduction02 {
+        border: 3px solid #b0c4de;
+        border-radius: 24px;
+        width: 400px;
+        height: 150px;
+        padding: 2rem;
+        margin: 0 auto;
+    }
 
-  main #about .azukiprofile .profile03 .introduction02 p {
-    font-size: 1rem;
-    color: #191970;
-    line-height: 2rem;
-    text-align: center;
-  }
+    main #about .azukiprofile .profile03 .introduction02 p {
+        font-size: 1rem;
+        color: #191970;
+        line-height: 2rem;
+        text-align: center;
+    }
 }
 
 /************************ 830px *****************************/
 @media screen and (max-width: 830px) {
-  main #about .profile p {
-    font-size: 1.6rem;
-    font-weight: 600;
-    line-height: 2rem;
-    margin-left: 0.5rem;
-  }
+    main #about .profile p {
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 2rem;
+        margin-left: 0.5rem;
+    }
 
-  header .Flogo {
-    font-size: 0.5rem;
-  }
+    header .Flogo {
+        font-size: 0.5rem;
+    }
 
-  main #about .azukiprofile .profile02 {
-    display: block;
-  }
+    main #about .azukiprofile .profile02 {
+        display: block;
+    }
 
-  main #about .azukiprofile .profile02 .introduction {
-    border-radius: 16px;
-    width: 300px;
-    height: 100px;
-    padding: 1rem;
-    margin: 2rem auto;
-  }
+    main #about .azukiprofile .profile02 .introduction {
+        border-radius: 16px;
+        width: 300px;
+        height: 100px;
+        padding: 1rem;
+        margin: 2rem auto;
+    }
 
-  main #about .azukiprofile .profile03 {
-    display: block;
-  }
+    main #about .azukiprofile .profile03 {
+        display: block;
+    }
 
-  main #about .azukiprofile .profile03 .introduction02 {
-    border-radius: 16px;
-    width: 400px;
-    height: 100px;
-    padding: 1rem;
-    margin: 2rem auto;
-  }
+    main #about .azukiprofile .profile03 .introduction02 {
+        border-radius: 16px;
+        width: 400px;
+        height: 100px;
+        padding: 1rem;
+        margin: 2rem auto;
+    }
 }
 /************************ 780px *****************************/
 @media screen and (max-width: 780px) {
-  main #about h1 {
-    font-size: 3rem;
-    font-weight: 500;
-  }
-  main #about .profile p {
-    font-size: 1.5rem;
-    font-weight: 700;
-  }
-  main #about .profile {
-    display: block;
-    margin: 0 auto;
-  }
+    main #about h1 {
+        font-size: 3rem;
+        font-weight: 500;
+    }
+    main #about .profile p {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    main #about .profile {
+        display: block;
+        margin: 0 auto;
+    }
 
-  main #about .profile figure {
-    text-align: center;
-  }
+    main #about .profile figure {
+        text-align: center;
+    }
 
-  main #about .profile figure img {
-    border-radius: 50%;
-    width: 80%;
-    height: auto;
-  }
+    main #about .profile figure img {
+        border-radius: 50%;
+        width: 80%;
+        height: auto;
+    }
 
-  main #about .profile p {
-    text-align: center;
-    margin-top: 2rem;
-  }
+    main #about .profile p {
+        text-align: center;
+        margin-top: 2rem;
+    }
 }
 
 /************************ 500px *****************************/
 @media screen and (max-width: 500px) {
-  main #about h1 {
-    font-size: 2rem;
-    font-weight: 500;
-  }
+    main #about h1 {
+        font-size: 2rem;
+        font-weight: 500;
+    }
 
-  main #about .profile p {
-    font-size: 0.8rem;
-    font-weight: 700;
-  }
+    main #about .profile p {
+        font-size: 0.8rem;
+        font-weight: 700;
+    }
 
-  header nav ul {
-    margin-top: 0;
-    display: block;
-    text-align: center;
-    line-height: 2rem;
-  }
+    header nav ul {
+        margin-top: 0;
+        display: block;
+        text-align: center;
+        line-height: 2rem;
+    }
 
-  header nav ul li {
-    line-height: 5rem;
-  }
+    header nav ul li {
+        line-height: 5rem;
+    }
 
-  /* ハンバーガー */
-  #drawerButton {
-    display: block;
-    position: fixed;
-    right: 1rem;
-    top: 1rem;
-    z-index: 10000;
-  }
+    /* ハンバーガー */
+    #drawerButton {
+        display: block;
+        position: fixed;
+        right: 1rem;
+        top: 1rem;
+        z-index: 10000;
+    }
 
-  .menu-toggle {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 25px;
-    cursor: pointer;
-    gap: 24px;
-  }
+    .menu-toggle {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 25px;
+        cursor: pointer;
+        gap: 24px;
+    }
 
-  .bar {
-    height: 4px;
-    width: 100%;
-    background-color: #191970;
-    transition: transform 0.3s ease, opacity 0.3s ease;
-    margin-bottom: 5px;
-  }
+    .bar {
+        height: 4px;
+        width: 100%;
+        background-color: #191970;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+        margin-bottom: 5px;
+    }
 
-  #drawerButton.reDesign .bar1 {
-    transform: rotate(45deg);
-    position: relative;
-    top: 9px;
-  }
+    #drawerButton.reDesign .bar1 {
+        transform: rotate(45deg);
+        position: relative;
+        top: 9px;
+    }
 
-  #drawerButton.reDesign .bar2 {
-    opacity: 0;
-  }
+    #drawerButton.reDesign .bar2 {
+        opacity: 0;
+    }
 
-  #drawerButton.reDesign .bar3 {
-    transform: rotate(-45deg);
-    position: relative;
-    bottom: 9px;
-  }
+    #drawerButton.reDesign .bar3 {
+        transform: rotate(-45deg);
+        position: relative;
+        bottom: 9px;
+    }
 
-  header ul {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    right: -110%;
-    background-color: #b0c4de;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 3rem;
-    z-index: 1000;
-  }
+    header ul {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        right: -110%;
+        background-color: #b0c4de;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+        z-index: 1000;
+    }
 
-  header ul.open {
-    right: 0;
-  }
+    header ul.open {
+        right: 0;
+    }
 }
 
 main .modoru {
-  width: 10%;
-  height: auto;
+    width: 10%;
+    height: auto;
 }
 
 header .Flogo {
-  width: 350px;
+    width: 350px;
 }
