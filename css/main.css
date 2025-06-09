@@ -252,6 +252,15 @@ main #SNS .Instagram h3 {
 main #SNS .Instagram {
     margin: 0 auto;
     text-align: center;
+    position: relative;
+}
+
+main #SNS .Instagram p {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 8%;
+    left: 25%;
 }
 
 /* だるま戻るボタン */
@@ -268,6 +277,14 @@ main .modoru:hover {
     transform: scale(1.02);
     box-shadow: 0 6px 20px #b0c4de(176, 198, 222, 0.959);
     transition: 0.3s;
+}
+
+/* 最後のあずきちゃんロゴ */
+.yoazukilogo {
+    width: 300px;
+    height: auto;
+    margin: 2rem auto;
+    text-align: center;
 }
 
 /* フッター */
@@ -433,6 +450,14 @@ footer {
         padding: 1rem;
         margin: 2rem auto;
     }
+
+    main #SNS .Instagram p {
+        width: 80px;
+        height: auto;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
 }
 /************************ 780px *****************************/
 @media screen and (max-width: 780px) {
@@ -462,6 +487,14 @@ footer {
     main #about .profile p {
         text-align: center;
         margin-top: 2rem;
+    }
+
+    main #SNS .Instagram p {
+        width: 80px;
+        height: auto;
+        position: absolute;
+        top: 13%;
+        left: 8%;
     }
 }
 
@@ -548,14 +581,59 @@ footer {
     header ul.open {
         right: 0;
     }
-}
 
-main .modoru {
-    width: 10%;
-    height: auto;
-}
+    main .modoru {
+        width: 10%;
+        height: auto;
+    }
 
+    header .Flogo {
+        width: 350px;
+    }
 
-header .Flogo {
-    width: 350px;
+    .loading-screen {
+        width: 100%;
+        height: auto;
+    }
+
+    main #SNS .Instagram p {
+        display: none;
+    }
+
+    .yoazukilogo img {
+        width: 200px;
+        height: auto;
+    }
+
+    main #SNS .Instagram h3 {
+        font-size: 1rem;
+        font-weight: 300;
+        color: #f5f5f5;
+        background-color: #191970;
+        width: 250px;
+        height: auto;
+        text-align: center;
+        margin: 2rem auto;
+        padding: 1rem 2rem;
+        border-radius: 8px;
+    }
+
+    main #SNS .tiktok h3 {
+        font-size: 1rem;
+        font-weight: 300;
+        color: #f5f5f5;
+        background-color: #191970;
+        width: 200px;
+        height: auto;
+        text-align: center;
+        margin: 2rem auto;
+        padding: 1rem 2rem;
+        border-radius: 8px;
+    }
+    .loading-screen {
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        text-align: center;
+    }
 }
