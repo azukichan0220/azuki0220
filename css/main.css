@@ -636,10 +636,10 @@ footer {
 
     main #SNS .Instagram h3 {
         font-size: 1rem;
-        font-weight: 300;
+        font-weight: 400;
         color: #f5f5f5;
         background-color: #191970;
-        width: 250px;
+        width: 350px;
         height: auto;
         text-align: center;
         margin: 2rem auto;
@@ -649,10 +649,10 @@ footer {
 
     main #SNS .tiktok h3 {
         font-size: 1rem;
-        font-weight: 300;
+        font-weight: 400;
         color: #f5f5f5;
         background-color: #191970;
-        width: 200px;
+        width: 350px;
         height: auto;
         text-align: center;
         margin: 2rem auto;
@@ -662,10 +662,10 @@ footer {
 
     main #SNS .me_me_Instagram h3 {
         font-size: 1rem;
-        font-weight: 300;
+        font-weight: 400;
         color: #f5f5f5;
         background-color: #191970;
-        width: 200px;
+        width: 350px;
         height: auto;
         text-align: center;
         margin: 2rem auto;
