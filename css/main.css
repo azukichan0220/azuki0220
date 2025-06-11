@@ -223,7 +223,7 @@ main #SNS {
 
 /* TikTokボタン */
 main #SNS .tiktok h3 {
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: 300;
     color: #f5f5f5;
     background-color: #191970;
@@ -237,7 +237,7 @@ main #SNS .tiktok h3 {
 
 /* インスタボタン */
 main #SNS .Instagram h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 300;
     color: #f5f5f5;
     background-color: #191970;
@@ -263,6 +263,35 @@ main #SNS .Instagram p {
     left: 25%;
 }
 
+main #SNS .me_me_Instagram h3 {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #f5f5f5;
+    background-color: #614134;
+    width: 400px;
+    height: auto;
+    text-align: center;
+    margin: 4rem auto;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+}
+
+main #SNS .me_me_Instagram {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+main #SNS .me_me_Instagram p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #614134;
+    border-bottom: 2px dashed #614134;
+    width: 20rem;
+    text-align: center;
+    margin: 2rem auto;
+}
+
 /* だるま戻るボタン */
 main .modoru {
     width: 8%;
@@ -283,7 +312,7 @@ main .modoru:hover {
 .yoazukilogo {
     width: 300px;
     height: auto;
-    margin: 2rem auto;
+    margin: 5rem auto;
     text-align: center;
 }
 
@@ -294,7 +323,7 @@ footer {
     background-color: #b0c4de;
     text-align: center;
     padding: 15px;
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 
 /* *************＜＜＜あしらいのため追加＞＞＞ **************/
